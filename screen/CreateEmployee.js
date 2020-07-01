@@ -124,9 +124,9 @@ const CreateEmployee=(props)=>{
         const data= new FormData()
         data.append('file',image)
         data.append('upload_preset','employeeapp')
-        data.append('cloud_name','hksingh4343')
+        data.append('cloud_name','XXX')
 
-        fetch("https://api.cloudinary.com/v1_1/hksingh4343/image/upload",{
+        fetch("https://api.cloudinary.com/XXX/XXX/image/upload",{
             method:'post',
             body:data
         }).then(res=>res.json()).
