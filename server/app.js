@@ -10,7 +10,7 @@ app.use(bodyParser.json())  //always create route(get,post) below this
 const Employee=mongoose.model("employee") //name the  saved one in schema
 
 //const password=RqJpuEqoA7keBdrq
-const mongouri="mongodb+srv://hk:RqJpuEqoA7keBdrq@hksingh4343-kbzo5.mongodb.net/test?retryWrites=true&w=majority"
+const mongouri="mongodb+srv://XXX"
 
 mongoose.connect(mongouri,{
         useNewUrlParser:true,   //to remove warning
